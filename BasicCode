@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     EditText Prozenttxt = (EditText) findViewById(R.id.Prozenttxt);
     EditText Zahltxt = (EditText) findViewById(R.id.Zahltxt);
     Button Berechnenbtn = (Button) findViewById(R.id.Berechnenbtn);
-    Berechnenbtn.setOnClickListener(new View.OnClickListener() {
+    Berechnenbtn.setOnClickListener(new View.OnClickListener() { // why do I have here the error: <identifier> expected?
 
         @Override
             public void onClick(View view) {
